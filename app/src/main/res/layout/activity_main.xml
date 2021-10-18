@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#952F2F"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FAFAFA"
+        app:popupTheme="@color/colorPrimary"
+        app:subtitle="@string/app_name"
+        app:subtitleTextColor="#000000"
+        app:title="@string/app_name"
+        app:titleTextColor="#000000" />
+
+    <EditText
+        android:id="@+id/tv_lastOperation"
+        android:layout_width="match_parent"
+        android:layout_height="22dp"
+        android:layout_weight="10"
+        android:background="#000000"
+        android:ems="10"
+        android:enabled="false"
+        android:gravity="right|center"
+        android:inputType="textPersonName"
+        android:text="0"
+        android:textColor="#CFD8DC"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/tv_Operador"
+        android:layout_width="match_parent"
+        android:layout_height="162dp"
+        android:layout_weight="10"
+        android:background="#000000"
+        android:ems="10"
+        android:enabled="false"
+        android:gravity="right|center"
+        android:inputType="textPersonName"
+        android:text="0"
+        android:textColor="#E8EAF6"
+        android:textSize="30sp" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#F44336">
+
+            <Button
+
+                android:id="@+id/AC"
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:layout_weight="2"
+                android:backgroundTint="#000000"
+                android:text="AC"
+                android:textColor="#E8EAF6" />
+
+            <Button
+                android:id="@+id/Del"
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:layout_weight="2"
+                android:backgroundTint="#000000"
+                android:text="Del"
+
+                android:textColor="#E8EAF6" />
+
+
+        </TableRow>
+
+        <TableRow
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF">
+
+            <Button
+                android:id="@+id/b7"
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:layout_weight="1"
+                android:backgroundTint="#000000"
+                android:text="7"
+                android:textColor="#E8EAF6" />
+
+            <Button
+                android:id="@+id/b8"
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:layout_weight="1"
+                android:backgroundTint="#000000"
+                android:text="8"
+                android:textColor="#E8EAF6" />
+
+            <Button
+                android:id="@+id/b9"
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:layout_weight="1"
+                android:backgroundTint="#000000"
+                android:text="9"
+                android:textColor="#E8EAF6" />
+
+            <Button
+                android:id="@+id/sum"
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:layout_weight="1"
+                android:backgroundTint="#000000"
+                android:text="+"
+                android:textColor="#E8EAF6" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF">
+
+            <Button
+                android:id="@+id/b4"
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:layout_weight="1"
+                android:backgroundTint="#000000"
+                android:text="4"
+                android:textColor="#E8EAF6" />
+
+            <Button
+                android:id="@+id/b5"
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:layout_weight="1"
+                android:backgroundTint="#000000"
+                android:text="5"
+                android:textColor="#E8EAF6" />
+
+            <Button
+                android:id="@+id/b6"
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:layout_weight="1"
+                android:backgroundTint="#000000"
+                android:text="6"
+                android:textColor="#E8EAF6" />
+
+            <Button
+                android:id="@+id/res"
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:layout_weight="1"
+                android:backgroundTint="#000000"
+                android:text="-"
+                android:textColor="#E8EAF6" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF">
+
+            <Button
+                android:id="@+id/b1"
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:layout_weight="1"
+                android:backgroundTint="#000000"
+                android:text="1"
+                android:textColor="#E8EAF6" />
+
+            <Button
+                android:id="@+id/b2"
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:layout_weight="1"
+                android:backgroundTint="#000000"
+                android:text="2"
+                android:textColor="#E8EAF6" />
+
+            <Button
+                android:id="@+id/b3"
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:layout_weight="1"
+                android:backgroundTint="#000000"
+
+                android:text="3"
+                android:textColor="#E8EAF6" />
+
+            <Button
+                android:id="@+id/mult"
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:layout_weight="1"
+                android:backgroundTint="#000000"
+                android:text="*"
+                android:textColor="#E8EAF6" />
+
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/Coma"
+            android:layout_width="72dp"
+            android:layout_height="30pt"
+            android:layout_weight="1"
+            android:backgroundTint="#000000"
+            android:text="."
+            android:textColor="#E8EAF6" />
+
+        <Button
+            android:id="@+id/b0"
+            android:layout_width="70dp"
+            android:layout_height="30pt"
+            android:layout_weight="1"
+            android:backgroundTint="#000000"
+            android:text="0"
+            android:textColor="#E8EAF6" />
+
+        <Button
+            android:id="@+id/igual"
+            android:layout_width="30pt"
+            android:layout_height="30pt"
+            android:layout_weight="1"
+            android:backgroundTint="#000000"
+            android:text="="
+            android:textColor="#E8EAF6" />
+
+        <Button
+            android:id="@+id/Div"
+            android:layout_width="30pt"
+            android:layout_height="30pt"
+            android:layout_weight="1"
+            android:backgroundTint="#000000"
+            android:text="/"
+            android:textColor="#E8EAF6" />
+
+    </LinearLayout>
+
+</LinearLayout>
